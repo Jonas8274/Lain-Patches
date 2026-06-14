@@ -1,0 +1,180 @@
+{
+  "version": "1.1.0-dev.2",
+  "patches": [
+    {
+      "name": "Disable Ads",
+      "description": "Disable banner, splash, and rewarded ads.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "cn.adonet.proxyevery",
+          "name": "Android Proxy Server",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#01AA68",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "9.9",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Enable Raw Capture",
+      "description": "Force enable DNG raw capture option.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.flavionet.android.camera.lite",
+          "name": "Camera FV-5 Lite",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#F9A128",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "5.4.0",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Fix Camera Mode Intent",
+      "description": "Fix opening Camera FV-5 Lite when entering camera mode.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.flavionet.android.cinema.lite",
+          "name": "Cinema FV-5 Lite",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#F01010",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "2.2.1",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Fix Video Recording Intent",
+      "description": "Fix opening Cinema FV-5 Lite from video recording menu.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.flavionet.android.camera.lite",
+          "name": "Camera FV-5 Lite",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#F9A128",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "5.4.0",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Higher Image Resolution",
+      "description": "Unlock higher image resolutions that the device support.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.flavionet.android.camera.lite",
+          "name": "Camera FV-5 Lite",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#F9A128",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "5.4.0",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Higher Video Resolution",
+      "description": "Unlock higher resolutions that limited by the app.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.flavionet.android.cinema.lite",
+          "name": "Cinema FV-5 Lite",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#F01010",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "2.2.1",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Unlock Premium",
+      "description": "Unlock 'Remove Ads' premium feature.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.imaginstudio.imagetools.pixellab",
+          "name": "PixelLab",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#3FA2E4",
+          "signatures": null,
+          "targets": [
+            {
+              "version": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    }
+  ]
+}
